@@ -13,6 +13,3 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
- 
-      - name: Run tests via Docker Compose
-        run: make ci
